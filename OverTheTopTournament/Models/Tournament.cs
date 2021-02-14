@@ -8,6 +8,7 @@ namespace OverTheTopTournament.Models
     public class Tournament
     {
         public DateTime DateOfTournament { get; set; }
+        public int? ContestantId { get; set; }
         public string Location { get; set; }
         public int NumberOfContestants { get; set; }
 
